@@ -72,8 +72,8 @@ export const personalInfo = [
 
   {
     id: 3,
-    title: 'Age : ',
-    description: '27 Years',
+    title: 'Phone : ',
+    description: '+234 815 401 2262',
   },
 
   {
@@ -96,8 +96,8 @@ export const personalInfo = [
 
   {
     id: 7,
-    title: 'Phone : ',
-    description: '+234 815 401 2262',
+    title: 'Hobbies : ',
+    description: 'Learning, Travelling, Swimming',
   },
 
   {
