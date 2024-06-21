@@ -56,7 +56,9 @@ const Contact = () => {
 
           <div className="contact__info">
             <div className="info__item">
-              <FaEnvelopeOpen className="info__icon" />
+              <a href="mailto:henrytrust1111@gmail.com">
+                <FaEnvelopeOpen className="info__icon" />
+              </a>
 
               <div>
                 <span className="info__title">Mail me</span>
@@ -65,7 +67,9 @@ const Contact = () => {
             </div>
 
             <div className="info__item">
-              <a href="tel:+234 815 401 2262"><FaPhoneSquareAlt className="info__icon" /></a>
+              <a href="tel:+234 815 401 2262">
+                <FaPhoneSquareAlt className="info__icon" />
+              </a>
               <div>
                 <span className="info__title">Call me</span>
                 <h4 className="info__desc">+234 815 401 2262</h4>

@@ -169,17 +169,16 @@
   line-height: 1.6;
 }
 
-/* Default styles for the toggle button (hidden by default) */
 .info__toggle {
   display: none;
-  background-color: var(--first-color);
-  color: var(--text-white);
+  color: var(--text-color);
   border: none;
-  padding: 10px 20px;
+  /* padding: 10px 20px; */
   margin-top: 20px;
   cursor: pointer;
-  border-radius: 5px;
-  font-size: var(--normal-font-size);
+  font-size: var(--large-font-size);
+  font-weight: var(--weight-600);
+
 }
 
 

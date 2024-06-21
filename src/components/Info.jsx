@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { personalInfo } from '../data';
+import { AiOutlineDown, AiOutlineUp } from 'react-icons/ai';
 
 const Info = () => {
   const [showAll, setShowAll] = useState(false);
@@ -36,7 +37,8 @@ const Info = () => {
         </li>
       ))}
       <button onClick={handleToggle} className="info__toggle">
-        {showAll ? 'View Less' : 'View All'}
+      {showAll ? <AiOutlineUp /> : <AiOutlineDown />} {showAll ? 'Show Less' : 'Show All'}
+        {/* {showAll ? 'View Less' : 'View All'} */}
       </button>
     </>
   );
