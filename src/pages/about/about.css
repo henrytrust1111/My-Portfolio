@@ -169,6 +169,20 @@
   line-height: 1.6;
 }
 
+/* Default styles for the toggle button (hidden by default) */
+.info__toggle {
+  display: none;
+  background-color: var(--first-color);
+  color: var(--text-white);
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: var(--normal-font-size);
+}
+
+
 @media screen and (max-width: 834px) {
   .about__container {
     grid-template-columns: repeat(1, 1fr);
@@ -204,6 +218,10 @@
 
   .skills__container {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .info__toggle {
+    display: block; 
   }
 }
 
