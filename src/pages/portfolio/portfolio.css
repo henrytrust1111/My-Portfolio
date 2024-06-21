@@ -117,6 +117,12 @@
 
   .portfolio__modal {
     margin: 0px;
+    padding: 0px;
+  }
+
+  .portfolio__modal-content {
+    max-width: 650px;
+    width: 97%;
   }
 
   .modal__close {
