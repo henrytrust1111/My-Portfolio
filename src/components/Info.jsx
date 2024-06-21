@@ -37,7 +37,7 @@ const Info = () => {
         </li>
       ))}
       <button onClick={handleToggle} className="info__toggle">
-      {showAll ? <AiOutlineUp /> : <AiOutlineDown />} {showAll ? 'Show Less' : 'Show All'}
+      {showAll ? <AiOutlineUp /> : <AiOutlineDown />} {showAll ? 'View Less' : 'View All'}
       </button>
     </>
   );
