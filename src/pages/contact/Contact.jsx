@@ -82,7 +82,7 @@ const Contact = () => {
               <FaLinkedin />
             </a>
 
-            <a href="http://dribble.com" className="contact__social-link">
+            <a href="https://wa.me/2348154012262" className="contact__social-link">
               <FaWhatsapp />
             </a>
           </div>
