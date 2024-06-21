@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import emailjs from 'emailjs-com';
+import emailjs from "emailjs-com";
 import {
   FaEnvelopeOpen,
   FaPhoneSquareAlt,
@@ -17,18 +17,23 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(
-      'service_t018ujr', // Replace with your EmailJS service ID
-      'template_ggptlrw', // Replace with your EmailJS template ID
-      form.current,
-      '39So2E2tntEtdzzDk' // Replace with your EmailJS public key
-    ).then((result) => {
-      console.log(result.text);
-      alert("Message sent successfully!");
-    }, (error) => {
-      console.log(error.text);
-      alert("Failed to send message, please try again.");
-    });
+    emailjs
+      .sendForm(
+        "service_t018ujr", // Replace with your EmailJS service ID
+        "template_ggptlrw", // Replace with your EmailJS template ID
+        form.current,
+        "39So2E2tntEtdzzDk" // Replace with your EmailJS public key
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          alert("Message sent successfully!");
+        },
+        (error) => {
+          console.log(error.text);
+          alert("Failed to send message, please try again.");
+        }
+      );
 
     e.target.reset(); // Reset the form after submission
   };
@@ -60,8 +65,7 @@ const Contact = () => {
             </div>
 
             <div className="info__item">
-              <FaPhoneSquareAlt className="info__icon" />
-
+              <a href="tel:+234 815 401 2262"><FaPhoneSquareAlt className="info__icon" /></a>
               <div>
                 <span className="info__title">Call me</span>
                 <h4 className="info__desc">+234 815 401 2262</h4>
@@ -70,19 +74,31 @@ const Contact = () => {
           </div>
 
           <div className="contact__socials">
-            <a href="https://web.facebook.com/Henrytrust1111" className="contact__social-link">
+            <a
+              href="https://web.facebook.com/Henrytrust1111"
+              className="contact__social-link"
+            >
               <FaFacebookF />
             </a>
 
-            <a href="https://github.com/henrytrust1111" className="contact__social-link">
+            <a
+              href="https://github.com/henrytrust1111"
+              className="contact__social-link"
+            >
               <FaGithub />
             </a>
 
-            <a href="https://www.linkedin.com/in/henry-trust-a20a9527b/" className="contact__social-link">
+            <a
+              href="https://www.linkedin.com/in/henry-trust-a20a9527b/"
+              className="contact__social-link"
+            >
               <FaLinkedin />
             </a>
 
-            <a href="https://wa.me/2348154012262" className="contact__social-link">
+            <a
+              href="https://wa.me/2348154012262"
+              className="contact__social-link"
+            >
               <FaWhatsapp />
             </a>
           </div>
@@ -143,4 +159,3 @@ const Contact = () => {
 };
 
 export default Contact;
-
