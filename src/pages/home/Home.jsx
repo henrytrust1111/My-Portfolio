@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
 import TypeWriterEffect from 'react-typewriter-effect';
 import "./home.css";
-import { color } from "framer-motion";
 
 const Home = () => {
   return (

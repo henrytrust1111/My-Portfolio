@@ -7,7 +7,7 @@ const Portfolio = () => {
   return (
     <div className="section portfolio section">
       <h2 className="section__title portfolio__title1">
-        My <span>Portfolio</span>
+        My <span>Projects</span>
       </h2>
 
       <div className="portfolio__container container grid">
