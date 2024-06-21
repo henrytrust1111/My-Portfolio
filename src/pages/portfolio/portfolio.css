@@ -141,5 +141,9 @@
     margin-inline: 20px;
   }
 
-
+  .portfolio__modal {
+    margin: 0px;
+  }
 }
+
+
