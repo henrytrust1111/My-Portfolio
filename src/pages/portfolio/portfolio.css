@@ -116,7 +116,8 @@
   }
 
   .portfolio__modal {
-    margin-inline: 10px;
+    margin: 0px;
+    /* margin-inline: 10px; */
   }
 
   .modal__close {
@@ -139,10 +140,6 @@
   .portfolio__container {
     grid-template-columns: repeat(1, 1fr);
     margin-inline: 20px;
-  }
-
-  .portfolio__modal {
-    margin: 0px;
   }
 }
 
