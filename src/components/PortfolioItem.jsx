@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import Close from "../assets/close.svg";
+import parse from 'html-react-parser';
 
-const PortfolioItem = ({ img, title, details }) => {
+const PortfolioItem = ({ img, title, details, link }) => {
+  console.log(link);
   const [modal, setModal] = useState(false);
 
   const toggleModal = () => {
@@ -31,7 +33,7 @@ const PortfolioItem = ({ img, title, details }) => {
 
                     <div>
                       <span className="item__title">{title}</span>
-                      <span className="item__details">{desc}</span>
+                      <a href={link} className="item__details item__link">{parse(desc)}</a>
                     </div>
                   </li>
                 );

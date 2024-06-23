@@ -257,6 +257,7 @@ export const portfolio = [
     id: 1,
     img: Work1,
     title: 'Library Management',
+    link: 'https://this-is-my-lib-app-managenment.vercel.app/',
     details: [
       {
         icon: <FiFileText />,
@@ -276,7 +277,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'https://this-is-my-lib-app-managenment.vercel.app/',
+        desc: 'librix.com',
       },
     ],
   },
@@ -285,6 +286,7 @@ export const portfolio = [
     id: 2,
     img: Work2,
     title: 'Docmate',
+    link: 'https://docmate-tau.vercel.app/',
     details: [
       {
         icon: <FiFileText />,
@@ -304,7 +306,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'https://docmate-tau.vercel.app/',
+        desc: 'docmate.com',
       },
     ],
   },
