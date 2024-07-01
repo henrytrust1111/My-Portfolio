@@ -217,7 +217,7 @@ export const skills = [
 
   {
     id: 3,
-    title: 'Css',
+    title: 'CSS',
     percentage: '70',
   },
 
@@ -249,6 +249,21 @@ export const skills = [
     id: 8,
     title: 'React',
     percentage: '90',
+  },
+  {
+    id: 8,
+    title: 'Nextjs',
+    percentage: '70',
+  },
+  {
+    id: 8,
+    title: 'Redux',
+    percentage: '70',
+  },
+  {
+    id: 8,
+    title: 'Github',
+    percentage: '60',
   },
 ];
 
